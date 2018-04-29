@@ -8,6 +8,7 @@ $( "#runSolution" ).click(function() {
 
 function quadraticPrimes(x){
     var currendProduct, max = 0;
+    var result = 0;
     for(var i = x*(-1); i < x; i++){
         for(var j = x*(-1); j < x; j++){
             for(var k = 0;;k++){
@@ -17,13 +18,14 @@ function quadraticPrimes(x){
                     if(max < k || max == k) {
                         max = k;
                         console.log(i, j, currendProduct);
+                        result = i*j;
                     }
                     break;
                 }
             }
         }
     }
-    console.log(max + " is the maximum");
+    return result;
 }
 
 function isPrime(num) {
