@@ -45,7 +45,6 @@ function checkPandigital(arr) {
             console.log(check);
             return true;
         }
-        
     }
     return false;
 }
