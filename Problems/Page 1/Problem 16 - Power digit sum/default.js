@@ -43,5 +43,5 @@ function powerDigitSum(x){
 
 /* the challenge of this problem was dealing with the very large integer that
 would be the result of the Calculation. To go about this, I'd store every 
-separate digit into an array, and work my way multiplying up to the power of 1000.
+separate digit into an array, and work my way multiplying up to the power of 1000.*/
 
