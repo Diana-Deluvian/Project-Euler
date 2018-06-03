@@ -140,6 +140,8 @@ body {
   text-shadow: none;
 }
 
-pre{
+pre {
   color: white;
+  line-height: 110%;
+  white-space: pre-wrap;
 }
